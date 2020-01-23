@@ -1,0 +1,72 @@
+.navbar {
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+
+    .navbar__container {
+        padding: 1rem;
+        background: $primaryColor;
+        @include flex(null, null, null, null);
+
+        .navbar__left {
+            @include flex(space-between, center, row, wrap) 
+        }
+        .navbar__right {
+            margin-left: 22rem;
+            @include alignSelf (center);
+        }
+    
+    }
+
+    // rwd
+    @media  #{$break1}, #{$break2}{
+        
+        .navbar__container {
+            padding: 1rem;
+            background: $primaryColor;
+            @include flex(center, center, column, null);
+    
+            .navbar__left {
+                @include flex(center, center, column, null) ;
+                display: grid;
+                grid-template: repeat(2,1fr) / repeat(2,1fr);
+
+            }
+            .navbar__right {
+                margin-left: -3rem;
+                @include alignSelf (center);
+            }
+
+            .navbar__singer {
+                
+                font-size: 1.7rem;
+                
+            }
+            
+    }
+}
+@media all and (min-width: 1200px) and (max-width: 1526px) {
+    .navbar__container {
+        @include flex(null, null, column, null);
+    }
+}
+
+}
+
+
+.navbar__left > * {
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+}
+
+.navbar__singer {
+    color: $secondaryColor;
+    font-size: 2.7rem;
+    font-weight: map-get($fontWeights, regular);
+
+    .navbar__span {
+        color: $dark-textColor;
+       
+    }
+    
+}

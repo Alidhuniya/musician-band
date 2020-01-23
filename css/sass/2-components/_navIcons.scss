@@ -1,0 +1,15 @@
+.navbar__icon {
+    color: $secondaryColor;
+    padding-right: 1.3rem;
+    cursor: pointer;
+}
+
+.navbar__icon--hover:hover {
+    color: $dark-textColor;
+}
+
+@media  #{$break1}, #{$break2}{
+    .navbar__icon {
+        padding-top: 1rem;
+    }
+}
