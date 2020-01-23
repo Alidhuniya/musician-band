@@ -1,0 +1,13 @@
+// flexbox
+
+@mixin flex ($row, $column, $direction, $wrap) {
+    display: flex;
+    justify-content: $row;
+    align-items: $column;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+}
+
+@mixin alignSelf ($alignSingle) {
+    align-self: $alignSingle;
+}

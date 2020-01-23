@@ -1,0 +1,21 @@
+// color-theory
+
+$primaryColor: #29274C;
+$secondaryColor: #fff;
+$hoverColor: #EC586C;
+$dark-textColor: #FF7587;
+
+//  rwd-breakpoints
+
+$break1: "(max-width: 768px)";
+$break2: "(min-width: 769px) and (max-width: 1199px)";
+$break3: "(min-width: 1200px)";
+
+// font-weight
+
+$fontWeights : (
+    "regular": 400,
+    "light": 500,
+    "bold": 900,
+    
+)
