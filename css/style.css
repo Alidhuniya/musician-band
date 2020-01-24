@@ -363,12 +363,12 @@ body {
   border-radius: 35px;
 }
 
-.about__button .about__btn {
-  padding-left: 1.3rem;
+.about__button--hover:hover {
+  background-color: #EC586C;
 }
 
-.about__button .about__button--hover:hover {
-  background-color: #EC586C;
+.about__button .about__btn {
+  padding-left: 1.3rem;
 }
 
 @media (max-width: 768px) {
@@ -381,5 +381,102 @@ body {
   .about__button .about__btn {
     padding-left: 0.3rem;
   }
+}
+
+.events__dv {
+  width: 450px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+
+.events__container, .events {
+  background: #29274C;
+  padding-top: 3.5rem;
+}
+
+.events__h1 {
+  text-align: center;
+  padding-left: 2rem;
+  color: #C77FFF;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 0.3rem;
+}
+
+.events__container {
+  padding-bottom: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.events__ticket {
+  height: 80px;
+  margin-top: -0.5rem;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #C77FFF;
+}
+
+.events__date, .events__detail {
+  text-align: center;
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.09);
+  padding-top: 20px;
+  padding-bottom: 13px;
+}
+
+.events__h3, .events__h4 {
+  color: #231047;
+  font-weight: 900;
+  font-size: 2.2rem;
+  margin-bottom: 0px;
+  line-height: 0.9;
+}
+
+.events__h4 {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.events__p {
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.events__detail {
+  width: 50%;
+  padding-left: 0.5rem;
+  background-color: #C77FFF;
+}
+
+.events__btn {
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-right: 0.2rem;
+  background-color: #231047;
+  font-size: 1.1rem;
+  padding: 0.2rem 1rem 1.5rem 1rem;
+  border-radius: 12px;
+  font-weight: 500;
+  color: #C77FFF;
+}
+
+.events__btn:hover {
+  background: #EC586C;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
