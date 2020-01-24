@@ -1,5 +1,6 @@
 img {
   max-width: 100%;
+  width: 100%;
 }
 
 ul,
@@ -51,7 +52,7 @@ html {
 }
 
 body {
-  font-family: 'Gelasio', serif;
+  font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   font-size: inherit;
@@ -62,7 +63,7 @@ body {
 }
 
 .navbar__li {
-  color: #FF7587;
+  color: #fff;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -79,7 +80,7 @@ body {
 }
 
 .navbar__icon--hover:hover {
-  color: #FF7587;
+  color: #C77FFF;
 }
 
 @media (max-width: 768px), (min-width: 769px) and (max-width: 1199px) {
@@ -92,6 +93,8 @@ body {
   top: 0;
   position: -webkit-sticky;
   position: sticky;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .navbar .navbar__container {
@@ -200,6 +203,69 @@ body {
 }
 
 .navbar__singer .navbar__span {
-  color: #FF7587;
+  color: #C77FFF;
+}
+
+.feature__fixedRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  margin-top: -45%;
+  margin-left: 73%;
+  color: #C77FFF;
+}
+
+.feature__fixedRight .feature__p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.feature__fixedRight .feature__h2 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+@media all and (max-width: 1075px) {
+  .feature__fixedRight .feature__h2 {
+    font-size: 2rem;
+  }
+}
+
+.feature__fixedRight .feature__h4 {
+  font-size: 1.1rem;
+  color: #999;
+  font-weight: 900;
+}
+
+@media all and (max-width: 728px) {
+  .feature__fixedRight {
+    margin-left: 65%;
+  }
+}
+
+@media all and (max-width: 560px) {
+  .feature__fixedRight {
+    margin-left: 70%;
+  }
+  .feature__fixedRight .feature__p {
+    font-size: 0.5rem;
+  }
+  .feature__fixedRight .feature__h2 {
+    font-size: 1rem;
+  }
+  .feature__fixedRight .feature__h4 {
+    font-size: 0.4rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
