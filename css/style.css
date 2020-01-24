@@ -383,13 +383,6 @@ body {
   }
 }
 
-.events__dv {
-  width: 450px;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 1rem;
-}
-
 .events__container, .events {
   background: #29274C;
   padding-top: 3.5rem;
@@ -416,7 +409,14 @@ body {
       flex-wrap: wrap;
 }
 
-.events__ticket {
+.events__container .events__dv {
+  width: 450px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+
+.events__container .events__dv .events__ticket {
   height: 80px;
   margin-top: -0.5rem;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -478,5 +478,15 @@ body {
 .events__btn:hover {
   background: #EC586C;
   color: #fff;
+}
+
+.events__image {
+  height: 960px;
+}
+
+@media all and (max-width: 917px) {
+  .events__image {
+    height: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
