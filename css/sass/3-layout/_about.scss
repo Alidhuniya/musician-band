@@ -1,0 +1,89 @@
+.about__container {
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  @include flex(center, center, null, wrap);
+
+  .about__left {
+    width: 635px;
+
+    .about__img {
+      border-radius: 100%;
+      width: 300px;
+      height: 300px;
+    }
+  }
+
+  .about__right {
+    width: 665px;
+    margin-top: 7rem;
+  }
+}
+
+.about__statistics {
+  @include flex(space-between, center, null, wrap);
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+}
+
+.about {
+  margin-top: -1rem;
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;
+  background: $primaryColor;
+}
+
+.about__p {
+  color: $secondaryDarkcolor;
+}
+.about__quote {
+  padding-top: 1.2rem;
+  font-size: 1.5rem;
+  color: $secondaryDarkcolor;
+  font-weight: map-get($fontWeights, regular);
+}
+
+.about__p1 {
+  color: $dark-textColor;
+  font-size: 1.7rem;
+  font-weight: map-get($fontWeights, bold);
+}
+
+.about__h1 {
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: $dark-textColor;
+  font-weight: map-get($fontWeights, bold);
+}
+
+.about__p2 {
+  font-size: 1.2rem;
+}
+
+.about__button {
+  width: 25%;
+  background-color: $dark-textColor;
+  border: 2px solid $dark-textColor;
+  font-size: 1.7rem;
+  cursor: pointer;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 35px;
+
+  &--hover:hover {
+    background-color: $hoverColor;
+  }
+  .about__btn {
+    padding-left: 1.3rem;
+  }
+
+  @media #{$break1} {
+    width: 15%;
+    font-size: 0.7rem;
+    border-width: 1px;
+    border-radius: 10px;
+
+    .about__btn {
+      padding-left: 0.3rem;
+    }
+  }
+}
+
