@@ -509,7 +509,7 @@ body {
 }
 
 .live {
-  background-image: url("./././img/events/livebg.jpg");
+  background-image: url("../.././img/events/livebg.jpg");
   padding-left: 1.3rem;
   height: 656px;
   padding-bottom: 90px;
@@ -612,7 +612,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url("./././img/events/clientbg.jpg");
+  background-image: url("../.././img/events/clientbg.jpg");
   padding-left: 1.3rem;
   height: 500px;
   padding-bottom: 90px;
@@ -849,7 +849,7 @@ textarea {
 }
 
 .footer {
-  background-image: url("./././img/events/livebg.jpg");
+  background-image: url("../.././img/events/livebg.jpg");
   padding-left: 1.3rem;
   height: 400px;
   padding-bottom: 90px;
