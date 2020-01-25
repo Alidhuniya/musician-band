@@ -1,0 +1,16 @@
+iframe {
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+    width: 50%;
+}
+
+.album {
+    background: $primaryColor;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    @include flex (center, center, column, null );
+
+    .album__h1 {
+        color: #FF0808;
+    }
+}
