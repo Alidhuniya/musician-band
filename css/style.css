@@ -628,4 +628,55 @@ body {
 .clientSays .clientSays__h2 {
   padding-top: 1rem;
 }
+
+.team {
+  background: #29274C;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 5rem;
+}
+
+.team__h1 {
+  color: #1E0E3C;
+  padding-top: 5rem;
+  color: #FF0808;
+}
+
+.team__dv {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  width: 250px;
+  height: 100%;
+}
+
+.team__dv .team__h2 {
+  color: #FF0808;
+}
+
+.team__dv .team__p {
+  color: #fff;
+}
+
+.team__img {
+  width: 250px;
+  height: 250px;
+}
+
+.team__algn {
+  text-align: center;
+}
+
+.team__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
 /*# sourceMappingURL=style.css.map */
