@@ -1,0 +1,17 @@
+.live__button {
+    color: $secondaryColor ;
+    background: rgb(255, 8, 8) ;
+    border: 1px solid rgb(255, 8, 8);
+    font-size: 1.7rem;
+    border-radius: 5px;
+    margin-top: 1.3rem;
+
+    .live__btn {
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        &:hover {
+            color: $primaryColor;
+        }
+    }
+}
