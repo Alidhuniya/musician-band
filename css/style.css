@@ -489,4 +489,90 @@ body {
     height: auto;
   }
 }
+
+.live {
+  background-image: url("../../../img/events/livebg.jpg");
+  padding-left: 1.3rem;
+  height: 656px;
+  padding-bottom: 90px;
+  padding-top: 105px;
+}
+
+.live .live__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+[data-overlay] {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+}
+
+.live__outerPlay {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 2px dashed #ff0808;
+}
+
+.live__outerPlay .live__play {
+  width: 100px;
+  height: 100px;
+  background-color: #ff0808;
+  border-radius: 50%;
+  margin-left: 0.9rem;
+  margin-top: 0.8rem;
+}
+
+.live__outerPlay .live__play .live__icon {
+  margin-left: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.live__h2 {
+  color: #fff;
+  font-weight: 900;
+  padding-top: 2.5rem;
+}
+
+.live__h1 {
+  color: #ff0808;
+  letter-spacing: 0.1rem;
+  font-weight: 900;
+}
+
+.live__p {
+  line-height: 1.5;
+  color: #fff;
+}
+
+.live__button {
+  color: #fff;
+  background: #ff0808;
+  border: 1px solid #ff0808;
+  font-size: 1.7rem;
+  border-radius: 5px;
+  margin-top: 1.3rem;
+}
+
+.live__button .live__btn {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.live__button .live__btn:hover {
+  color: #29274C;
+}
 /*# sourceMappingURL=style.css.map */

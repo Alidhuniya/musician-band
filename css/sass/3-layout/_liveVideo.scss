@@ -1,0 +1,78 @@
+.live {
+    background-image: url("../../../img/events/livebg.jpg");
+    padding-left: 1.3rem;
+    height: 656px;
+    padding-bottom: 90px;
+    padding-top: 105px;
+
+    .live__container {
+        @include flex (center, center, column, null);
+    }
+    
+}
+
+[data-overlay] {
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+.live__outerPlay {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px dashed rgb(255, 8, 8);
+    
+    .live__play {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 8, 8);
+        border-radius: 50%;
+        margin-left:0.9rem;
+        margin-top: 0.8rem;
+
+        .live__icon {
+            margin-left: 2.5rem;
+            margin-top: 2.5rem;
+        }
+    }
+}
+
+.live__h2 {
+    color: $secondaryColor;
+    font-weight: map-get($fontWeights, bold);
+    padding-top: 2.5rem;
+}
+
+.live__h1 {
+    color:rgb(255, 8, 8) ;
+    letter-spacing: 0.1rem;
+    font-weight: map-get($fontWeights, bold);
+}
+
+.live__p {
+    line-height: 1.5;
+    color: $secondaryColor;
+}
+
+.live__button {
+    color: $secondaryColor ;
+    background: rgb(255, 8, 8) ;
+    border: 1px solid rgb(255, 8, 8);
+    font-size: 1.7rem;
+    border-radius: 5px;
+    margin-top: 1.3rem;
+
+    .live__btn {
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        &:hover {
+            color: $primaryColor;
+        }
+    }
+}
+
