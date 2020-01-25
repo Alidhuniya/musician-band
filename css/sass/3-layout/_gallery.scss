@@ -1,0 +1,33 @@
+.gallery {
+    background: $primaryColor;
+    padding-bottom: 5rem;
+    .gallery__h1 {
+        text-align: center;
+        color: #FF102D;
+    }
+
+    .gallery__container {
+        @include flex (center, center, null, wrap);
+
+        .gallery__img {
+            width: 300px;
+            margin-left: 1rem;
+            margin-top: 1rem;
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                -webkit-transition: 0.3s ease-in-out;
+                transition: 0.3s ease-in-out;
+            
+        }
+    }
+    .gallery__img:hover   {
+        cursor: pointer;
+        -webkit-transform: scale(1.03);
+        transform: scale(1.03);
+        
+        
+        
+      }
+}
+
+

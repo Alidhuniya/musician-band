@@ -708,4 +708,44 @@ iframe {
 .album .album__h1 {
   color: #FF0808;
 }
+
+.gallery {
+  background: #29274C;
+  padding-bottom: 5rem;
+}
+
+.gallery .gallery__h1 {
+  text-align: center;
+  color: #FF102D;
+}
+
+.gallery .gallery__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.gallery .gallery__container .gallery__img {
+  width: 300px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.gallery .gallery__img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
 /*# sourceMappingURL=style.css.map */
