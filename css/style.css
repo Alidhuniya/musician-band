@@ -847,4 +847,76 @@ textarea {
   width: 100%;
   height: 40px;
 }
+
+.footer {
+  background-image: url("../../../img/events/livebg.jpg");
+  padding-left: 1.3rem;
+  height: 400px;
+  padding-bottom: 90px;
+  padding-top: 105px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+[data-overlay] {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+}
+
+.footer__h1 {
+  color: #E3142D;
+  font-weight: 900;
+}
+
+.footer__p {
+  color: #A49DB3;
+  font-size: 2.5rem;
+}
+
+.footer__input {
+  max-width: 595px;
+}
+
+.footer__btn {
+  margin-left: 9rem;
+}
+
+.footer__entermail {
+  background: #2C1950;
+  border: 2px solid;
+  border-radius: 50px;
+  color: #E3142D;
+  height: 58px;
+  font-size: 2.3rem;
+}
+
+.live__button {
+  color: #fff;
+  background: #ff0808;
+  border: 1px solid #ff0808;
+  font-size: 1.7rem;
+  border-radius: 5px;
+  margin-top: 1.3rem;
+}
+
+.live__button .live__btn {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.live__button .live__btn:hover {
+  color: #29274C;
+}
 /*# sourceMappingURL=style.css.map */

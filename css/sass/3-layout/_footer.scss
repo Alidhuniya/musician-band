@@ -1,0 +1,43 @@
+.footer {
+    background-image: url("../../../img/events/livebg.jpg");
+    padding-left: 1.3rem;
+    height: 400px;
+    padding-bottom: 90px;
+    padding-top: 105px;
+    @include flex (center, center, column, null );
+}
+
+[data-overlay] {
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer__h1 {
+    color: #E3142D;
+    font-weight: map-get($fontWeights, bold );
+}
+
+.footer__p {
+    color: $secondaryDarkcolor;
+    font-size: 2.5rem;
+}
+
+.footer__input {
+    max-width: 595px;
+}
+
+.footer__btn {
+    margin-left: 9rem;
+}
+
+.footer__entermail {
+    background: #2C1950;
+    border: 2px solid;
+    border-radius: 50px;
+    color: #E3142D;
+    height: 58px;
+    font-size: 2.3rem;
+}
+
+@import "../2-components/button";
